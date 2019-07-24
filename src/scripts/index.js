@@ -3,7 +3,7 @@
 import store from './store.js';
 import api from './api.js';
 import shoppingList from './shopping-list';
-import css from './styles/index.css'; 
+import './../styles/index.css'; 
 
 import $ from 'jquery';
 
