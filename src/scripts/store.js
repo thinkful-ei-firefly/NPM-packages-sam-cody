@@ -34,7 +34,23 @@ const setSearchTerm = function(term) {
   this.searchTerm = term;
 };
 
-const store = {
+// const store = {
+//   items: [],
+//   error: null,
+//   hideCheckedItems: false,
+//   searchTerm: '',
+
+//   addItem,
+//   setError,
+//   findById,
+//   findAndDelete,
+//   findAndUpdate,
+//   toggleCheckedFilter,
+//   setSearchTerm,
+//   setItemIsEditing,
+// };
+  
+export default {
   items: [],
   error: null,
   hideCheckedItems: false,
@@ -49,6 +65,4 @@ const store = {
   setSearchTerm,
   setItemIsEditing,
 };
-  
-export default store;
 

@@ -2,6 +2,10 @@
 
 import store from './store.js';
 import api from './api.js';
+import shoppingList from './shopping-list';
+import css from './styles/index.css'; 
+
+import $ from 'jquery';
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();

@@ -76,11 +76,9 @@ const deleteItem = function(id) {
   });
 };
 
-const api = {
+export default{
   getItems,
   createItem,
   updateItem,
   deleteItem,
 };
-
-export default api;
